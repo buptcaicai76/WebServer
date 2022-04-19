@@ -9,7 +9,7 @@
 #include <memory>
 #include <vector>
 
-const int THREADPOOL_INVALID = -1;
+const int THREADPOOL_INVALID = -1; //判断是否有效
 const int THREADPOOL_LOCK_FAILURE = -2;
 const int THREADPOOL_QUEUE_FULL = -3;
 const int THREADPOOL_SHUTDOWN = -4;
